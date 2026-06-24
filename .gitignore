@@ -1,0 +1,29 @@
+# Ignore virtual environments
+yolovenv/
+venv/
+.venv/
+Env/
+
+# Ignore image/annotation datasets completely
+dataset/
+images/
+labels/
+data/
+test/
+train/
+valid/
+
+# Ignore training outputs, logs, and weights
+runs/
+.pytest_cache/
+
+# Ignore heavy deep learning model files
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+*.tar
+*.zip
+*.rar
+*.gz

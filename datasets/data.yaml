@@ -1,0 +1,13 @@
+train: C:/Projects/PCB/datasets/train/images
+val: C:/Projects/PCB/datasets/valid/images
+test: C:/Projects/PCB/datasets/test/images
+
+nc: 6
+
+names:
+  - missing_hole
+  - mouse_bite
+  - open_circuit
+  - short
+  - spur
+  - spurious_copper
